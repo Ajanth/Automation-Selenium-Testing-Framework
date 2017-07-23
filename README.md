@@ -1,4 +1,4 @@
-# Automation Selenium Testing Framework
+# Automation - Selenium Testing Framework
 
 A Comprehensive testing framework built on Selenium Webdriver.
 
