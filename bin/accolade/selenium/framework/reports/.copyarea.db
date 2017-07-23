@@ -1,0 +1,9 @@
+ClearCase CopyAreaDB|4
+vobs\TestData\Tools\Selenium\CBOLSeleniumWebdriver v3\src\cbol\selenium\framework\reports
+2
+5
+b:Logger.java|1|13dca7b7bed|1a72|8ed80621|f77a6ca19b7211e290df0001847a23aa|0
+f:HTMLReport.java|1|13dca7b7b80|dfb|268183bb|ecba6c5e9b7211e290c90001847a23aa|0
+a:Table.java|1|13dca7b7c0c|868|42048cc0|0cea6d359b7311e290ea0001847a23aa|0
+8:Row.java|1|13dca7b7bfd|58e|26169d68|02ca6cf39b7311e290e80001847a23aa|0
+e:FileWrite.java|1|13dca7b7b12|7a7|af788f97|dc0a6be89b7211e290c60001847a23aa|0

@@ -1,0 +1,8 @@
+ClearCase CopyAreaDB|4
+vobs\TestData\Tools\Selenium\CBOLSeleniumWebdriver v3\src\cbol\selenium\framework\datasource
+2
+4
+12:LocatorReader.java|1|13dca7b7ab5|1e12|b1f7e951|ae159eb19abb11e280460001847a23aa|0
+11:ConfigReader.java|1|13dca7b7a95|2de|d863fa71|d355990b9aba11e29cac0001847a23aa|0
+13:PropertyReader.java|1|13dca7b7ab5|8df|fb5db6ec|4745a2b49abc11e281280001847a23aa|0
+15:InputSheetReader.java|1|13dca7b7aa5|772|6dfb372e|68559cde9abb11e280010001847a23aa|0

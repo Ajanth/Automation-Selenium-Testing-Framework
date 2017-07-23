@@ -1,0 +1,12 @@
+ClearCase CopyAreaDB|4
+vobs\TestData\Tools\Selenium\CBOLSeleniumWebdriver v3\src\cbol\selenium\framework\exception
+2
+8
+1b:SystemTimeOutException.java|1|13dca7b7a38|202|e696b1ae|2d05af709abe11e282b30001847a23aa|0
+26:CBOLLegacyElementTimeoutException.java|1|13dca7b7a28|2f7|2cdef215|883596fe9aba11e29c520001847a23aa|0
+21:CBOLElementNotfoundException.java|1|13dca7b7a18|229|5ddab21a|7eb596be9aba11e29c490001847a23aa|0
+27:CBOLLegacyElementNotfoundException.java|1|13dca7b7a18|324|5e8e01d4|837596dd9aba11e29c4e0001847a23aa|0
+20:CBOLWindowNotFoundException.java|1|13dca7b7a38|316|a4b2fc37|91c5973a9aba11e29c6c0001847a23aa|0
+22:CBOLByElementTimeoutException.java|1|13dca7b7a09|3c9|f7783771|79f5969f9aba11e29c440001847a23aa|0
+23:CBOLByElementNotfoundException.java|1|13dca7b79f9|3cb|e4e7383d|75c596839aba11e29c400001847a23aa|0
+1f:CBOLAlertNotFoundException.java|1|13dca7b79ea|32f|f6f1ff93|706596739aba11e29c390001847a23aa|0
