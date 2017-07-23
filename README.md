@@ -10,7 +10,7 @@ Ability to execute tests in parallel.
 Comprehensive report generation that enables easy bug detection.
 
 # Report HTML - sample screenshot
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/Ajanth/Automation-Selenium-Testing-Framework/master/resources/sample-report.png)
 
 # Documentation
 In Progress
