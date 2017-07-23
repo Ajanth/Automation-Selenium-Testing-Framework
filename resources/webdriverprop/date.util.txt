@@ -1,0 +1,63 @@
+Date.prototype.monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+Date.prototype.getMonthName = function () { return this.monthNames[this.getMonth()];};
+
+
+
+var DateUtil = {
+
+    constants : {
+        date100     : 'dd/mm/yyyy',
+        date101     : 'dd-mm-yyyy',
+        date102     : 'yyyy-mm-dd',
+        date103		: 'mmm dd, yyyy'
+    },
+
+    //To get today's date
+    getTodayDate : function (format,newDate) {
+    	var d;
+    	if(newDate == null){
+        d = new Date();
+    	}
+    	else{
+    		d = newDate;
+    	}
+        var thisMonth = d.getMonth() + 1+"";
+        var thisYear = d.getFullYear();
+        var thisDate = d.getDate();
+        if(thisMonth.length==1){
+        	thisMonth='0'+thisMonth;
+	    }
+        var today = thisYear+''+thisMonth+''+thisDate; 
+    	
+       
+
+        
+        if(format)
+        	return this.format(today, format)
+        else
+        	return today;
+    },
+
+    format : function(val, f){
+        switch (f){
+
+            case this.constants.date100:{
+                return val.substring(0, 4) + '/' + val.substring(4, 6) + '/' + val.substring(6, 8);
+                break;
+            }
+            case this.constants.date101:{
+                return val.substring(0, 4) + '-' + val.substring(4, 6) + '-' + val.substring(6, 8);
+                break;
+            }
+            case this.constants.date102:{
+                return val.substring(0, 4) + '-' + val.substring(4, 6) + '-' + val.substring(6, 8);
+                break;
+            }
+            case  this.constants.date103:{
+                 return new Date().monthNames[Math.abs(val.substring(4, 6)) - 1] + " " + (val.substring(6, 8)) + ", " + val.substring(0, 4);
+                 break;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,180 @@
+body .adpacks{
+	background: #fff;
+	padding: 15px;
+	margin: 15px 0 0;
+	border: 3px solid #eee;
+}
+body .one .bsa_it_ad{
+	background: transparent; 
+	border:none;
+	font-family: inherit; 
+	padding:0 15px 0 10px; 
+	margin:0;
+}
+body .one .bsa_it_ad:hover img{
+	-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+}
+body .one .bsa_it_ad .bsa_it_i{
+	display:block;
+	padding:0;
+	float:none;
+	margin:0 0 5px;
+}
+
+body .one .bsa_it_ad .bsa_it_i img{
+	padding:0;
+	border:none;
+}
+	
+body .one .bsa_it_ad .bsa_it_t{
+	padding: 6px 0;
+}
+
+body .one .bsa_it_ad .bsa_it_d {
+	color: #777;
+	font-size: 11px;
+}
+
+body .one .bsa_it_p{
+	display:none;
+}
+body #bsap_aplink,
+body #bsap_aplink:hover{
+	display: block;
+	font-size: 10px;
+	margin: 0px;
+	position: relative;
+	text-align: right;
+	font-family: Georgia;
+	color: #b62b27;
+	font-style: italic;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#codrops-ad-wrapper{
+	text-align: center; 
+	width: 180px; 
+	height: auto;
+	right: 4px; 
+	top: 32px;  
+	position: fixed; 
+	background: rgba(255,255,255,0.7);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	z-index: 1000000;
+	font-family: Arial;
+}
+#codrops-ad-wrapper .one .bsa_it_ad{
+	padding: 10px;
+}
+#codrops-ad-wrapper .one .bsa_it_ad .bsa_it_i{
+	margin: 0px;
+	float: none;
+}
+#codrops-ad-wrapper:hover{
+	background: rgba(255,255,255,0.9);
+}
+#adpack-remove{
+	opacity: 0.4;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: #000 url(http://tympanus.net/codrops/adpacks/adclose_black.png) no-repeat center center;
+}
+#adpack-remove:hover{
+	opacity:1.0;
+}
+
+#codrops-ad-wrapper .adhere.ad1.odd{
+	bottom: 10px;
+	position: absolute;
+	font-size: 11px;
+	right: 10px;
+}
+
+#codrops-ad-wrapper.custom-ad-no-text{
+	width: 160px; 
+	height: 135px;
+}
+#codrops-ad-wrapper.custom-ad-no-text a.custom-ad-link{
+	display: block;
+	margin: 15px 0 0 15px;
+	text-align: left;
+}
+#codrops-ad-wrapper.custom-ad-no-text a.custom-ad-link:before{
+	content: 'Advertisement';
+	position: absolute;
+	bottom: 4px;
+	left: 2px;
+	letter-spacing: 2px;
+	font-size: 9px;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ccc;
+	text-shadow: 0 1px 1px #fff;
+
+}
+#codrops-ad-wrapper .fusionentire{
+	display: block;
+	padding: 10px 0;
+}
+#codrops-ad-wrapper #fusion_ad a{
+	display: block;
+	font-family: Arial;
+	padding: 10px;
+	font-size: 11px;
+	color: #777;
+}
+#codrops-ad-wrapper #fusion_ad a:hover{
+	color: #000;
+}
+#codrops-ad-wrapper #fusion_ad .fusionentire a:first-child{
+	padding-bottom: 0px;
+}
+#codrops-ad-wrapper #fusion_ad a:nth-child(2){
+	padding-top: 4px;
+}
+#codrops-ad-wrapper #fusion_ad > a{
+	background: rgba(155, 155, 155, 0.1);
+}
+#codrops-ad-wrapper #fusion_ad a img{
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+#codrops-ad-wrapper #fusion_ad a:hover img{
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+@media screen and (max-width: 800px){ 
+	#codrops-ad-wrapper,
+	#codrops-ad-wrapper.custom-ad-no-text{
+		width: 100%; 
+		height: auto; 
+		right: 0px; 
+		top: auto; 
+		bottom: 0px !important;
+		left: 0px !important;
+	} 
+	#codrops-ad-wrapper.custom-ad-no-text a.custom-ad-link{
+		margin: 15px auto 0 auto;
+		text-align: center;
+	}
+	#codrops-ad-wrapper .one .bsa_it_ad .bsa_it_i{
+		top: auto; 
+		bottom: 2px;
+	} 
+	#codrops-ad-wrapper .one .bsa_it_ad{
+
+	} 
+	#adpack-remove{
+		width: 18px;
+		height: 18px;
+	} 
+}
+
+@media screen and (max-width: 350px){ 
+	#codrops-ad-wrapper{display: none !important;}
+}
